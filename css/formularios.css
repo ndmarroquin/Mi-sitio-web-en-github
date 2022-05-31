@@ -1,0 +1,39 @@
+.form-vuelo{
+    display: flex;
+    flex-direction: column;   
+}
+
+.form-vuelo label {
+    color: var(--colorTextClaro);
+    font-size: 1.5rem;
+    margin-top: 6rem;
+}
+
+#vuelo{
+    background-color: #F2F2F7;
+    padding: 1.1rem 1.6rem;
+    margin-top: 1.6rem;
+    border: 0;
+    border-radius: 8px;
+    outline-style: none;
+    font-size: var(--size17);
+}
+
+#boton{
+    height: 4.4rem;
+    background-color: var(--colorBlue);
+    color: #ffffff;
+    margin-top: 1.6rem;
+    border: 0;
+    border-radius: 8px;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#boton img{
+    margin-left: 1rem;
+}   

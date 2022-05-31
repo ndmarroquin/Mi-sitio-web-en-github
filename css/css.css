@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    /* TAMAÑO ESTABLECIDO PARA UTILIZAR
+    LAS UNIDADES rem*/
+    font-size: 10px; /* Tamaño general */
+
+    /* TIPOGRAFIA PRINCIPAL DEL SITIO WEB */
+    font-family: 'Roboto', sans-serif;
+} 
+
+:root{
+    /* COLORES */
+    --colorTextClaro: rgba(60, 60, 67, 0.6);
+    --colorBlack: #000000;
+    --colorBackground: #F2F2F7;
+    --colorBlue: #007AFF;
+
+    /* TIPOGRAFIA */
+    --size17: 17px;
+    --size15: 15px;
+    
+}
